@@ -4,8 +4,9 @@
 
 // first i will create a varriable to hold message
 
-// create a function
+// create a function to make 180k
 
+let zeal = "180k";
 let msg = "you are the man ahkal";
 
 function updateMessage() {
