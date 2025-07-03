@@ -5,8 +5,12 @@
 // first i will create a varriable to hold message
 
 // create a function
+
+let msg = "you are the man ahkal";
+
 function updateMessage() {
-  prompt("shalam priest");
+  let el = document.getElementById("message");
+  el.textContent = msg;
 }
 
 updateMessage();
