@@ -1,9 +1,35 @@
-//  2. getMenInTribe(tribeName) Takes a tribe name as input, and returns the number of men in that tribe.
+// 3. getTotalMen() Returns the total men from all tribes added together
 
-let judah = "74,600";
+let Reuben = 46500;
+let Simeon = 59300;
+let Gad = 45650;
+let Judah = 74600;
+let Issachar = 54400;
+let Zebulun = 57400;
+let Ephraim = 40500;
+let Manasseh = 32200;
+let Benjamin = 68000;
+let Dan = 62700;
+let Asher = 41500;
+let Naphtali = 53400;
+let Levi = 7000; // Traditionally counted separately
 
-function getMenInTribe(jew) {
-  return jew;
+function getTotalMen() {
+  return (
+    Reuben +
+    Simeon +
+    Gad +
+    Judah +
+    Issachar +
+    Zebulun +
+    Ephraim +
+    Manasseh +
+    Benjamin +
+    Dan +
+    Asher +
+    Naphtali +
+    Levi
+  );
 }
 
-console.log(getMenInTribe(judah));
+console.log(getTotalMen());
